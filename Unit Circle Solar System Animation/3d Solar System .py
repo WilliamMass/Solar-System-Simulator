@@ -29,7 +29,7 @@ visible.  All the planets are drawn to scale as closely as possible.  All stars 
 
 if system == 'Sol':
     sun = Star(5, 'gold')
-    earth = Planet(300, 'mediumblue', 1, sun, 100)
+    earth = Planet(300, 'mediumblue', 1, sun, 70)
     mercury = Planet(117, 'burlywood', 0.38, sun, 0)
     venus = Planet(217, 'magenta', 0.95, sun, 50)
     mars = Planet(452, 'firebrick', .53, sun, 100)
@@ -44,6 +44,9 @@ if system == 'Sol':
     phobos = Planet(19, 'gainsboro', 0.11, mars, 3)
     deimos = Planet(19, 'light slate grey', 0.0981, mars, 0)
 
+    '''
+    Asteroids can be manually toggled off to avoid framerate issues.
+    '''
     asteroids = True
 
     bodies = [earth, mercury, venus, mars, jupiter, moon, phobos, deimos]
@@ -59,11 +62,12 @@ elif system == 'Gliese':
     order of their discovery. - The distances here (the radius/semimajor axis value defined when each Planet object is
     created) are 20% of what they are in our solar system.  For instance, Gliese 581e (defined ge, below) is .02815 of
     an astronomical unit from its star; plotting that in Turtle would make it draw its orbit essentially completely
-    within its star, so the values have been scaled instead.  Once again, all Planets are scaled correctly, porportional
-    to the size of Earth, and the star is _not_ drawn to realistic scale.
+    within its star, so the values have been scaled instead.  Once again, all Planets are scaled correctly, proportional
+    to the size of Earth, and the star is _not_ drawn to realistic scale. These bodies are initialized in order of
+    proximity to their star.
     '''
     g581 = Star(3, 'orangered')
-    ge = Planet(168, 'tomato', 1.2, g581, 1)  # These are in star-major order, i.e. closest to farthest from the star.
+    ge = Planet(168, 'tomato', 1.2, g581, 1)
     gb = Planet(242, 'chocolate', 3.8, g581, 1)
     gc = Planet(432, 'thistle', 1.4, g581, 10)
     gd = Planet(1260, 'deepskyblue', 2.2, g581, -180)

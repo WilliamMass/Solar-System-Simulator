@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dc62dd4-ac92-467e-99a4-49404c9d7ee3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit Circle Solar System Animation/3d Solar System .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N-Body Problem/n-Body Jupyter.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit Circle Solar System Animation/2d Solar System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit Circle Solar System Animation/2d Solar System.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit Circle Solar System Animation/3d Solar System.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit Circle Solar System Animation/SolarClasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit Circle Solar System Animation/SolarClasses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N-Body Problem/n-body Problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/N-Body Problem/n-body Problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit Circle Solar System Animation/3d Solar System .py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit Circle Solar System Animation/3d Solar System .py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +16,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>G</find>
-      <find>plot</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Point</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +38,7 @@
   <component name="ProjectId" id="1dBSLnJ5cgsCrJs8VIBSiFnpSqj" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Unit Circle Solar System Animation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/N-Body Problem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -95,25 +85,6 @@
       <option name="SCRIPT_NAME" value="C:\Users\Will\Documents\GitHub\Solar-System-Simulator\Unit Circle Solar System Animation\2d Solar System.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3d Solar System - Gliese" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Solar-System-Simulator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit Circle Solar System Animation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit Circle Solar System Animation/3d Solar System - Gliese.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -168,18 +139,15 @@
       <module name="Solar-System-Simulator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/N-Body Problem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Hotspur\Documents\GitHub\Solar-System-Simulator\N-Body Problem\n-body Problem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/N-Body Problem/n-body Problem.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -187,17 +155,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.n-body Problem" />
       <item itemvalue="Python.3d Solar System" />
       <item itemvalue="Python.2d Solar System" />
-      <item itemvalue="Python.3d Solar System - Gliese" />
+      <item itemvalue="Python.n-body Problem" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.3d Solar System" />
-        <item itemvalue="Python.3d Solar System - Gliese" />
-        <item itemvalue="Python.2d Solar System" />
         <item itemvalue="Python.n-body Problem" />
+        <item itemvalue="Python.2d Solar System" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +183,8 @@
       <workItem from="1591767624191" duration="713000" />
       <workItem from="1591799692474" duration="15834000" />
       <workItem from="1591892924646" duration="2774000" />
-      <workItem from="1591896940945" duration="10717000" />
+      <workItem from="1591896940945" duration="17065000" />
+      <workItem from="1591924014479" duration="22491000" />
     </task>
     <servers />
   </component>
@@ -229,19 +196,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/N-Body Problem/n-Body Jupyter.ipynb</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Solar_System_Simulator$Solar_System.coverage" NAME="Solar System Coverage Results" MODIFIED="1591159360935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Solar_System_Simulator$Obtest.coverage" NAME="Obtest Coverage Results" MODIFIED="1591835388858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Solar_System_Simulator$3d_Solar_System.coverage" NAME="3d Solar System Coverage Results" MODIFIED="1591914057547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit Circle Solar System Animation" />
+    <SUITE FILE_PATH="coverage/Solar_System_Simulator$3d_Solar_System.coverage" NAME="3d Solar System Coverage Results" MODIFIED="1591992506984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit Circle Solar System Animation" />
     <SUITE FILE_PATH="coverage/Solar_System_Simulator$2d_Solar_System.coverage" NAME="2d Solar System Coverage Results" MODIFIED="1591899281735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit Circle Solar System Animation" />
-    <SUITE FILE_PATH="coverage/Solar_System_Simulator$n_body_Problem.coverage" NAME="n-body Problem Coverage Results" MODIFIED="1591827227957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Solar_System_Simulator$OBtest.coverage" NAME="OBtest Coverage Results" MODIFIED="1591803328788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Solar_System_Simulator$n_body_Problem.coverage" NAME="n-body Problem Coverage Results" MODIFIED="1591916278718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Solar_System_Simulator$OBTest.coverage" NAME="OBTest Coverage Results" MODIFIED="1591831673007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Solar_System_Simulator$Orbital_Mechanics_Simulation.coverage" NAME="Orbital Mechanics Simulation Coverage Results" MODIFIED="1591337499758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
