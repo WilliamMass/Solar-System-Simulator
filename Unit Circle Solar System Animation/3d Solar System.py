@@ -2,6 +2,7 @@ from SolarClasses import Planet, Star
 import turtle
 import time
 import numpy as np
+import sys
 
 simulation = True
 
@@ -11,9 +12,31 @@ simulation of actual planetary systems.  Please note that 'Sol' is not actually 
 science-fiction naming conventions.  All these things are initialized below in the if statements.  In order to change
 the system being plotted, simply comment/uncomment the appropriate line.
 '''
-system = 'Sol'
-# system = 'Gliese'
-normalize_ratios = False  # This is only checked if the system is not our own Solar System
+def getsystem():
+    system = input("Print: which of the following systems would you like to simulate?\n"
+                   "1) Sol\n"
+                   "2) Gliese\n\n"
+                   "Q) Quit\n\n"
+                   "Please enter your choice now: ")
+    if system not in ["1", "2", "Q", "Sol", "Gliese", "Quit", "Exit"]:
+        print("Sorry, I didn't quite catch that.")
+        getsystem()
+    else:
+        return system
+
+system = getsystem()
+normalize_ratios = False
+if system == '1':
+    system = 'Sol'
+elif system == '2':
+    system = 'Gliese'
+    normalize_ratios = True
+elif system == 'Q':
+    system = 'Quit'
+
+if system == 'Quit':
+    print("Have a stellar day!")
+    sys.exit(1)
 
 window = turtle.Screen()
 window.setup(width=1.0, height=1.0, startx=0, starty=0)
